@@ -19,6 +19,8 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {visibility: visible;} 
 li a:hover {
     background-color: #111;
 }
